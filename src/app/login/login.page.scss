@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    background: linear-gradient(to top, #007acc, #28a745); // Azul y verde, de abajo hacia arriba
+    background: linear-gradient(to top, #007acc, #28a745);
   
     ion-card {
       width: 100%;
@@ -19,14 +19,14 @@
       color: black; // Letras negras
   
       ion-card-title {
-        font-size: 1.8em;  // Aumentamos el tamaño del texto
+        font-size: 1.8em; 
         font-weight: bold;
-        color: black; // Texto negro para "Bienvenido"
+        color: black;
       }
   
       ion-card-subtitle {
-        font-size: 1.2em; // Aumentamos el tamaño del subtítulo
-        color: black; // Texto negro para "Inicia sesión para continuar"
+        font-size: 1.2em;
+        color: black;
       }
     }
   
@@ -35,20 +35,20 @@
       --border-radius: 8px;
   
       ion-input {
-        --color: #000;  // Color del texto negro
-        --placeholder-color: #888; // Color del placeholder (gris)
+        --color: #000;
+        --placeholder-color: #888;
         padding-left: 8px;
-        font-size: 1.2em;  // Aumentamos el tamaño del texto en los inputs
+        font-size: 1.2em;
       }
     }
   
     .login-button {
       margin-top: 20px;
-      font-size: 1.2em;  // Aumentamos el tamaño del texto en los botones
+      font-size: 1.2em;
     }
   
     ion-button {
-      font-size: 1.1em;  // Aumentamos el tamaño del texto para todos los botones
+      font-size: 1.1em;
     }
   }
   
